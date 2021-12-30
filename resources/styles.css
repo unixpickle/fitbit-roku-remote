@@ -1,12 +1,32 @@
 .background {
-  viewport-fill: fb-cyan;
+  viewport-fill: fb-black;
 }
 
-#demotext {
-  fill: black;
-  font-size: 32;
-  font-family: System-Regular;
-  font-weight: bold;
-  text-anchor: middle;
-  text-length: 99;
+.application-fill {
+  fill: fb-cyan;
+}
+
+#up-button #image {
+  href: "up.png";
+  fill: fb-white;
+}
+
+#down-button #image {
+  href: "down.png";
+  fill: fb-white;
+}
+
+#left-button #image {
+  href: "left.png";
+  fill: fb-white;
+}
+
+#right-button #image {
+  href: "right.png";
+  fill: fb-white;
+}
+
+#ok-button #image {
+  href: "ok.png";
+  fill: fb-white;
 }
