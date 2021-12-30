@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "fb343149-7ddd-460a-a4d8-f42124f24f98",
+    "appType": "app",
+    "appDisplayName": "RokuRemote",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "RokuRemote"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
