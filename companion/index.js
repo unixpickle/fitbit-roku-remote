@@ -1,11 +1,11 @@
 import * as messaging from "messaging";
 import { settingsStorage } from "settings";
 
-messaging.peerSocket.onMessage = (evt) => {
+messaging.peerSocket.addEventListener("message", (evt) => {
   const key = evt.data['key'];
   const url = getECPURL() + '/keypress/' + key;
   fetch(url, { method: 'POST' });
-};
+});
 
 function getECPURL() {
   return 'http://' + getECPHost() + ":" + getECPPort();

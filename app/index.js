@@ -3,7 +3,7 @@ import * as messaging from "messaging";
 
 function sendKey(key) {
   if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
-    messaging.peerSocket.send(key);
+    messaging.peerSocket.send({ key: key });
   }
 }
 
