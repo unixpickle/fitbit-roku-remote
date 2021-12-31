@@ -6,6 +6,16 @@
   fill: fb-cyan;
 }
 
+#back-button #image {
+  href: "back.png";
+  fill: fb-white;
+}
+
+#home-button #image {
+  href: "home.png";
+  fill: fb-white;
+}
+
 #up-button #image {
   href: "up.png";
   fill: fb-white;

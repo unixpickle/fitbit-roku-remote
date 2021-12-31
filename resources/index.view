@@ -1,4 +1,8 @@
 <svg class="background">
+  <use id="back-button" href="#icon-button" class="medium-button application-fill"
+       x="25%-36" y="25%-36" />
+  <use id="home-button" href="#icon-button" class="medium-button application-fill"
+       x="75%-36" y="25%-36" />
   <use id="up-button" href="#icon-button" class="medium-button application-fill"
        x="50%-36" y="25%-36" />
   <use id="down-button" href="#icon-button" class="medium-button application-fill"
