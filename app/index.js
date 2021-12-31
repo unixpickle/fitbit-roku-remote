@@ -15,6 +15,8 @@ const buttonIdToKey = {
   'left-button': 'Left',
   'right-button': 'Right',
   'ok-button': 'Select',
+  'volume-up-button': 'VolumeUp',
+  'volume-down-button': 'VolumeDown',
 };
 
 Object.keys(buttonIdToKey).forEach((buttonId) => {
@@ -36,3 +38,4 @@ function setEnabled(flag) {
 setEnabled(false);
 messaging.peerSocket.addEventListener("open", () => setEnabled(true));
 messaging.peerSocket.addEventListener("close", () => setEnabled(false));
+messaging.peerSocket.addEventListener("error", () => setEnabled(false));

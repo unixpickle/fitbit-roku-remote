@@ -40,3 +40,13 @@
   href: "ok.png";
   fill: fb-white;
 }
+
+#volume-up-button #image {
+  href: "volume_up.png";
+  fill: fb-white;
+}
+
+#volume-down-button #image {
+  href: "volume_down.png";
+  fill: fb-white;
+}
