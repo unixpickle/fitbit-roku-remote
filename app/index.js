@@ -8,6 +8,8 @@ function sendKey(key) {
 }
 
 const buttonIdToKey = {
+  'back-button': 'Back',
+  'home-button': 'Home',
   'up-button': 'Up',
   'down-button': 'Down',
   'left-button': 'Left',
