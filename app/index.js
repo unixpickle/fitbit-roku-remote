@@ -20,13 +20,17 @@ Object.keys(buttonIdToKey).forEach((buttonId) => {
   button.addEventListener('click', () => {
     sendKey(buttonIdToKey[buttonId]);
   });
-  button.style.display = "none";
 });
 
-// Show buttons only once we are connected to companion app.
-messaging.peerSocket.addEventListener("open", () => {
+function setEnabled(flag) {
+  const opacity = flag ? 1 : 0.5;
   Object.keys(buttonIdToKey).forEach((buttonId) => {
     const button = document.getElementById(buttonId);
-    button.style.display = "";
+    button.style.opacity = opacity;
   });
-});
+}
+
+// Show enabled state based on connection to companion app.
+setEnabled(false);
+messaging.peerSocket.addEventListener("open", () => setEnabled(true));
+messaging.peerSocket.addEventListener("close", () => setEnabled(false));
