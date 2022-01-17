@@ -17,6 +17,9 @@ const buttonIdToKey = {
   'ok-button': 'Select',
   'volume-up-button': 'VolumeUp',
   'volume-down-button': 'VolumeDown',
+  'play-button': 'Play',
+  'rev-button': 'Rev',
+  'fwd-button': 'Fwd',
 };
 
 Object.keys(buttonIdToKey).forEach((buttonId) => {

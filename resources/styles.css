@@ -50,3 +50,18 @@
   href: "volume_down.png";
   fill: fb-white;
 }
+
+#play-button #image {
+  href: "play.png";
+  fill: fb-white;
+}
+
+#rev-button #image {
+  href: "rev.png";
+  fill: fb-white;
+}
+
+#fwd-button #image {
+  href: "fwd.png";
+  fill: fb-white;
+}

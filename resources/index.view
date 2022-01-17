@@ -1,20 +1,36 @@
 <svg class="background">
-  <use id="back-button" href="#icon-button" class="medium-button application-fill"
-       x="25%-36" y="25%-36" />
-  <use id="home-button" href="#icon-button" class="medium-button application-fill"
-       x="75%-36" y="25%-36" />
-  <use id="up-button" href="#icon-button" class="medium-button application-fill"
-       x="50%-36" y="25%-36" />
-  <use id="down-button" href="#icon-button" class="medium-button application-fill"
-       x="50%-36" y="75%-36" />
-  <use id="left-button" href="#icon-button" class="medium-button application-fill"
-       y="50%-36" x="25%-36" />
-  <use id="right-button" href="#icon-button" class="medium-button application-fill"
-       y="50%-36" x="75%-36" />
-  <use id="ok-button" href="#icon-button" class="medium-button application-fill"
-       y="50%-36" x="50%-36" />
-  <use id="volume-down-button" href="#icon-button" class="medium-button application-fill"
-       x="25%-36" y="75%-36" />
-  <use id="volume-up-button" href="#icon-button" class="medium-button application-fill"
-       x="75%-36" y="75%-36" />
+  <use href="#scrollview">
+    <use href="#scrollview-item" height="92">
+      <use id="back-button" href="#icon-button" class="medium-button application-fill"
+           x="50%-128" y="10" />
+      <use id="up-button" href="#icon-button" class="medium-button application-fill"
+           x="50%-36" y="10" />
+      <use id="home-button" href="#icon-button" class="medium-button application-fill"
+           x="50%+56" y="10" />
+    </use>
+    <use href="#scrollview-item" height="92">
+      <use id="left-button" href="#icon-button" class="medium-button application-fill"
+          x="50%-128" y="10" />
+      <use id="ok-button" href="#icon-button" class="medium-button application-fill"
+          x="50%-36" y="10" />
+      <use id="right-button" href="#icon-button" class="medium-button application-fill"
+          x="50%+56" y="10" />
+    </use>
+    <use href="#scrollview-item" height="92">
+      <use id="volume-down-button" href="#icon-button" class="medium-button application-fill"
+           x="50%-128" y="10" />
+      <use id="down-button" href="#icon-button" class="medium-button application-fill"
+           x="50%-36" y="10" />
+      <use id="volume-up-button" href="#icon-button" class="medium-button application-fill"
+           x="50%+56" y="10" />
+    </use>
+    <use href="#scrollview-item" height="92">
+      <use id="rev-button" href="#icon-button" class="medium-button application-fill"
+           x="50%-128" y="10" />
+      <use id="play-button" href="#icon-button" class="medium-button application-fill"
+           x="50%-36" y="10" />
+      <use id="fwd-button" href="#icon-button" class="medium-button application-fill"
+           x="50%+56" y="10" />
+    </use>
+  </use>
 </svg>
